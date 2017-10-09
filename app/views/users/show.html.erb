@@ -13,7 +13,7 @@
 
 <p>
   <strong>Avatar:</strong>
-  <%= @user.avatar %>
+  <%= image_tag @user.avatar, class: "profile_pic" %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
